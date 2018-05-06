@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withBindingAttrs functionality 1`] = `
+<input
+  [value]="data.value"
+  className="test"
+/>
+`;

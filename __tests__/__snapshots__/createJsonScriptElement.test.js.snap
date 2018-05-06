@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createJsonScriptElement functionality 1`] = `
+<script
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "{\\"id\\":\\"this is a test\\",\\"name\\":\\"works like a charm\\"}",
+    }
+  }
+  type="application/json"
+/>
+`;
