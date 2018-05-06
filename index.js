@@ -19,7 +19,7 @@ module.exports = {
     )
   },
   /*
-  *	The syntax of binding attribute of AMP can't be used directly in jsx way.
+  * The syntax of binding attribute of AMP can't be used directly in jsx way.
   * For example: React will complain if you create element like this ... <input [value]='state.value' />.
   * This function help to append binding attributes to React element.
   * @param element

@@ -1,7 +1,7 @@
 {
   "name": "react-ampify",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "git@github.com:jimmy319/react-ampify.git",
   "author": "CR Jimmy <jimmy74319@gmail.com>",
   "license": "MIT",
@@ -14,12 +14,16 @@
     "react": "^16.3.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "jest": "^22.4.3",
     "react": "^16.3.2"
   },
   "scripts": {
+    "build": "babel index.js --out-dir dist",
     "test": "jest",
     "test:watch": "jest --watch"
   }
