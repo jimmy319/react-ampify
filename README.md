@@ -48,6 +48,12 @@ will render:
 
 Inline script element can't be created by using jsx syntax (security concern). This function help you to inject json into script element
 
+##### params:
+
+name | type | description
+--- | --- | ---
+json | Object | json data which will be attached to script element as its inner content
+
 #### `withBindingAttrs(element, attrs)`
 
 The syntax of binding attribute of AMP can't be used directly in jsx way.
@@ -58,6 +64,13 @@ For example: React will complain if you create element like this:
 ```
 
 This function help to append binding attributes to React element.
+
+##### params:
+
+name | type | description
+--- | --- | ---
+element | React Element | the react element which binding attributes will be attached to
+attrs | Object | the attributes you want to bind
 
 ## License
 
