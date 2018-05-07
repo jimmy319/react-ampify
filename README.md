@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/jimmy319/react-ampify.svg?branch=master)](https://travis-ci.org/jimmy319/react-ampify)
 # react-ampify
-:wrench::zap:A collection of utility functions for developing AMP page with React.js
+A collection of utility functions for developing AMP page with React.js.:wrench::zap:
 
 ## Quick Start
 
@@ -10,7 +10,7 @@
 npm i -S react-ampify react
 ```
 
-Note: React@^16.1.1 is the peer dependency of react-ampify
+Note: `React@^16.1.1` is the peer dependency of react-ampify
 
 #### Usage
 
@@ -58,3 +58,7 @@ For example: React will complain if you create element like this:
 ```
 
 This function help to append binding attributes to React element.
+
+## License
+
+`react-ampify` is [MIT Licenced](https://github.com/jimmy319/react-ampify/blob/master/LICENSE)
