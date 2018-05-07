@@ -1,6 +1,6 @@
 {
   "name": "react-ampify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of utility functions for developing AMP page with React.js",
   "main": "./dist/index.js",
   "repository": "git@github.com:jimmy319/react-ampify.git",
