@@ -24,7 +24,7 @@ const TestComponent = () => {
   }
   return (
     <div>
-      { createJsonScriptElement() }
+      { createJsonScriptElement(json) }
     </div>
   )
 }
