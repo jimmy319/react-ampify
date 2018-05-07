@@ -90,7 +90,7 @@ attrs | Object | the attributes you want to bind
 import { withBindingAttrs } from 'react-ampify'
 
 const Input = () => (
-  withBindingAttrs(<input type='text' />, {value: myState.value})
+  withBindingAttrs(<input type='text' />, {value: 'myState.value'})
 )
 ```
 
