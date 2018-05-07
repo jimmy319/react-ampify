@@ -1,4 +1,4 @@
-const reactAmpify = require('../index.js')
+const reactAmpify = require('../dist/index.js')
 const React = require('react')
 
 test('withBindingAttrs functionality', () => {
