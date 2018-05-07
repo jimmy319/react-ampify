@@ -2,3 +2,5 @@
 .gitignore
 README.md
 __tests__/
+.travis.yml
+yarn.lock
