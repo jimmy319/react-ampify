@@ -7,8 +7,10 @@
 #### Installation
 
 ```
-npm i -S react-ampify
+npm i -S react-ampify react
 ```
+
+Note: React@^16.1.1 is the peer dependency of react-ampify
 
 #### Usage
 
