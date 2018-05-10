@@ -16,7 +16,7 @@ Note: `React@^16.1.1` is the peer dependency of react-ampify
 #### Usage
 
 ```javascript
-const { createJsonScriptElement } = require('react-ampify')
+import { createJsonScriptElement } from 'react-ampify'
 
 const TestComponent = () => {
   const json = {
@@ -55,6 +55,18 @@ name | type | description
 --- | --- | ---
 json | Object | json data which will be attached to script element as its inner content
 
+##### example:
+
+```javascript
+import { createJsonScriptElement } from 'react-ampify'
+
+const AmpState = ({ state }) => (
+  <amp-state id='myState'>
+    { createJsonScriptElement(state) }
+  </amp-state>
+)
+```
+
 #### `withBindingAttrs(element, attrs)`
 
 The syntax of binding attribute of AMP can't be used directly in jsx way.
@@ -72,6 +84,16 @@ name | type | description
 --- | --- | ---
 element | React Element | the react element which binding attributes will be attached to
 attrs | Object | the attributes you want to bind
+
+##### example:
+
+```javascript
+import { withBindingAttrs } from 'react-ampify'
+
+const Input = () => (
+  withBindingAttrs(<input type='text' />, {value: 'myState.value'})
+)
+```
 
 ## License
 
