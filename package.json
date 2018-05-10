@@ -25,7 +25,11 @@
   },
   "scripts": {
     "build": "babel index.js --out-dir dist",
-    "test": "jest",
+    "test": "jest && codecov",
     "test:watch": "jest --watch"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
